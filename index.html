@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Codejam Canvas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div id="menu1">
+    <img src="assets/menu.png" alt="menu1">
+  </div>
+  <div id="headtext">
+    <h1>CodeJam - Pallete</h1>
+  </div>
+  <div id="menu2">
+    <img src="assets/menu%20icon.png" alt="menu2">
+  </div>
+</header>
+<main>
+
+  <section class="column">
+
+    <div id="tools" class="window">
+
+      <div class="window__item">
+        <div class="window__label">
+          <img src="assets/fill-drip.png" alt="Paint bucket">
+        </div>
+        <div class="window__text">Paint bucket</div>
+      </div>
+
+      <div class="window__item">
+        <div class="window__label">
+          <img src="assets/eye-dropper.png" alt="Choose color">
+        </div>
+        <div class="window__text">Choose color</div>
+      </div>
+
+      <div class="window__item">
+        <div class="window__label">
+          <img src="assets/arrows-alt.png" alt="Move">
+        </div>
+        <div class="window__text">Move</div>
+      </div>
+
+      <div class="window__item">
+        <div class="window__label">
+          <img src="assets/exchange-alt.png" alt="Transform">
+        </div>
+        <div class="window__text">Transform</div>
+      </div>
+
+    </div>
+
+    <div id="colors" class="window">
+
+      <div class="window__item">
+        <div class="window__label">
+          <div class="window__color"></div>
+        </div>
+        <div class="window__text">Current color</div>
+      </div>
+
+      <div class="window__item">
+        <div class="window__label">
+          <div class="window__color"></div>
+        </div>
+        <div class="window__text">Prev color</div>
+      </div>
+
+      <div class="window__item">
+        <div class="window__label">
+          <div class="window__color"></div>
+        </div>
+        <div class="window__text">Red</div>
+      </div>
+
+      <div class="window__item">
+        <div class="window__label">
+          <div class="window__color"></div>
+        </div>
+        <div class="window__text">Blue</div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="column">
+    <canvas id="canvas"></canvas>
+  </section>
+
+  <section class="column">
+    <div id="switcher" class="window">
+
+      <div class="window__item">
+        <div class="window__label">
+          <img src="" alt="">
+        </div>
+        <div class="window__text">4x4</div>
+      </div>
+
+      <div class="window__item">
+        <div class="window__label">
+          <img src="" alt="">
+        </div>
+        <div class="window__text">32x32</div>
+      </div>
+
+      <div class="window__item">
+        <div class="window__label">
+          <img src="" alt="">
+        </div>
+        <div class="window__text">512x512</div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
