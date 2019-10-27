@@ -8,7 +8,7 @@ fetch('./data/4x4.json')
         return response.json();
     }).then(function (jsonData0) {
     jsonData2x2 = jsonData0;
-
+//
 }).then(function () {
 
     fetch('./data/32x32.json')
